@@ -5,7 +5,7 @@ function FindTalent() {
   return (
     <Box>
       <Stack sx={{display: 'flex', flexDirection: {xs: 'column', sm: 'column', md: 'row'}, marginTop: {xs: 4, sm: 6, md: 8}, borderRadius: 20, height: {md: 550}}}>
-      <img className='side-image-talent' src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload//q_auto,dpr_2.0,f_auto/brontes/for-talents/find-great-work@2x.jpg" />
+      <img className='side-image-talent' src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload//q_auto,dpr_2.0,f_auto/brontes/for-talents/find-great-work@2x.jpg" alt='find-talent' />
         <Box sx={{display: 'flex', flexDirection: 'column', flex: 1, backgroundColor: '#1f57c3', borderRadius: {md: "0px 8px 8px 0px"}, padding: 3, paddingBottom: {xs: 3, sm: 3, md: 5}}} gap={3} >
           <Typography sx={{lineHeight: 0.97, fontSize: 64}} mt={2} variant='h2' color={'white'} fontFamily={'Rzo'} >
             Find great <br />

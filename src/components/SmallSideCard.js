@@ -1,7 +1,6 @@
 import { Box, Typography } from '@mui/material';
 import React from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import Award from "../assets/award.png"
 
 function SmallSideCard({heading, description, logo}) {
   return (

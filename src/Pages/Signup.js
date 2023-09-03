@@ -55,7 +55,7 @@ function Signup() {
       setLoading(true)
       localStorage.setItem('session', JSON.stringify(userData));
       setLoading(false)
-      navigate('/find-work')
+      navigate('/find-workgit remote add origin https://github.com/vishwani123patlan/upwork-clone.git')
     }
   }
 
@@ -96,9 +96,9 @@ function Signup() {
             </RadioGroup>
           </FormControl>
           </Box>
-          <Button sx={{minWidth: "50%", borderRadius: 50, alignSelf: 'center'}} disabled={!userData.role} variant='contained' onClick={(event)=>setReadyToSignUp(true)}>{userData.role=="client" ? `Join As ${userData.role}` : userData.role=="freelance" ? `Apply as a freelancer` : 'Create Account' }</Button></>
+          <Button sx={{minWidth: "50%", borderRadius: 50, alignSelf: 'center'}} disabled={!userData.role} variant='contained' onClick={(event)=>setReadyToSignUp(true)}>{userData.role==="client" ? `Join As ${userData.role}` : userData.role==="freelance" ? `Apply as a freelancer` : 'Create Account' }</Button></>
           : userData.role &&  <>
-            <Typography textAlign={'center'} variant='h4' fontWeight={600} letterSpacing={2} fontFamily={'Rza'}>{userData.role=="freelance" ? 'Sign up to find work you love' : 'Sign up to hire talent'}</Typography>
+            <Typography textAlign={'center'} variant='h4' fontWeight={600} letterSpacing={2} fontFamily={'Rza'}>{userData.role==="freelance" ? 'Sign up to find work you love' : 'Sign up to hire talent'}</Typography>
             <Box sx={{display: 'flex', flexDirection: 'column', gap: 3}}>
               <Box sx={{display: 'flex', flexDirection: {xs: 'column', sm: 'column', md: 'row'}, justifyContent: 'space-between', gap: {xs: 3, sm: 3, md: 0}}}>
                 <TextField 

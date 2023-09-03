@@ -5,7 +5,6 @@ import Job from './Job';
 import { JobsData } from '../utils/constant';
 
 function JobsList() {
-  const [openJob, SetOpenJob] = useState(false)
   return (
     <Box mt={4}>
       <Box sx={{display: {xs: 'none', sm: 'none', md: 'flex'}, flexDirection: 'row', gap: 1}}>

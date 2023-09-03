@@ -41,7 +41,7 @@ function ExpertiseAndTrust() {
 
           <Button sx={{backgroundColor: 'white', color: '#13544e', width: 230, borderRadius: 50, "&:hover": {backgroundColor: 'white', color: '#13544e'}}}>Learn More</Button>
         </Box>
-        <img className='side-image' src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/enterprise-2023.jpg" />
+        <img className='side-image' src="https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/f_auto,q_auto/brontes/for-enterprise/enterprise-2023.jpg" alt='side-image' />
       </Stack>
 
       {/* TRUST  */}

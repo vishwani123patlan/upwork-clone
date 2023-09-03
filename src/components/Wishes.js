@@ -10,7 +10,7 @@ function Wishes() {
         <Typography variant='h5'>{formatDate(date)}</Typography>
         <Typography fontWeight={530} variant='h3' fontFamily={'Rza'}>{getGreeting()} Vishwani P</Typography>
       </Box>
-      <img style={{width: 150}} src='https://growthdot.com/images/growthdot/email-tracking/hero-image.svg' />
+      <img style={{width: 150}} src='https://growthdot.com/images/growthdot/email-tracking/hero-image.svg' alt='hero' />
     </Box>
   )
 }

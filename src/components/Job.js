@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import JobDrawer from './JobDrawer';
 import { Box, Typography, Chip } from '@mui/material';
-import { Link } from 'react-router-dom';
-import { Map, PaymentOutlined, RateReview, StarRate } from '@mui/icons-material';
+import { Map, PaymentOutlined, StarRate } from '@mui/icons-material';
 import { getTimeDifference } from '../utils/utils';
 
 function Job({data}) {
