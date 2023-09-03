@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Box, Divider, TextField, Typography } from '@mui/material';
 import { Search } from '@mui/icons-material';
 import Job from './Job';

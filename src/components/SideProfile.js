@@ -1,7 +1,7 @@
 
 import { Box, Typography } from '@mui/material';
 import LinearProgress from '@mui/material/LinearProgress';
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import SmallSideCard from './SmallSideCard';
 import AdditionalLinks from './AdditionalLinks';
@@ -9,7 +9,7 @@ import AdditionalLinks from './AdditionalLinks';
 import { smallSideCardData } from '../utils/constant';
 
 function SideProfile() {
-  const [profileProgress, setProfileProgress] = useState(48);
+  const profileProgress = 48;
   return (
     <Box sx={{display: 'flex', flexDirection: 'column', gap: 2}}>
       <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 2, border: '1px solid #d7d7d7', borderRadius: 1}}>
